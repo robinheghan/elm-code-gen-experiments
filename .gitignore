@@ -1,4 +1,4 @@
 node_modules/
 elm-stuff/
-bench.js
-index.html
+/bench.js
+/index.html
