@@ -2734,7 +2734,7 @@ var author$project$Bench$suite = function () {
 						function (_n6) {
 						    return author$project$Bench$filter.f(
 								function (a) {
-									return !A2(elm$core$Basics$modBy, 2, a);
+								    return !elm$core$Basics$modBy.f(2, a);
 								},
 								intList);
 						}),
@@ -2744,7 +2744,7 @@ var author$project$Bench$suite = function () {
 						function (_n7) {
 						    return author$project$Bench$filter.f(
 								function (a) {
-									return A2(elm$core$String$endsWith, '2', a);
+								    return elm$core$String$endsWith.f('2', a);
 								},
 								stringList);
 						})
